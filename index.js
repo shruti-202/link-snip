@@ -7,6 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(express.static(path.join(__dirname,'public')))
 
+
 /*DATABASE CONNECTION*/
 
 mongoose.connect(process.env.DATABASE_URL);
@@ -14,6 +15,7 @@ mongoose.connection.once("connected", () =>
   console.log("🟢 DATABASE CONNECTED")
 );
 mongoose.connection.on("error", (err) => console.log("🔴 error", err));
+
 
 /*MODEL*/
 
@@ -45,6 +47,7 @@ LinkSchema.methods.incrementClicks = function () {
   return this.save();
 };
 const LinkModel = mongoose.model("link", LinkSchema);
+
 
 /*ROUTES*/
 
@@ -92,6 +95,7 @@ app.get("/:shortStr", async (req, res) => {
 
   res.redirect(307, shortStrDoc[0].longUrl);
 });
+
 
 /*APP LISTEN*/
 
