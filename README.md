@@ -15,9 +15,13 @@ $ npm run dev
 https://link-snip.onrender.com
 
 ## Features:
+- Create short Url by first providing longUrl & shortStr using POSTMAN
+  
 - URL Shortening: POST endpoint ("/link") to shorten URLs.
 
 - Redirection: GET endpoint ("/:shortStr") for URL redirection.
+
+-  Underhood the shortUrl consists of Long URL which eventually redirects to long URL 
 
 - Error Handling: Handles invalid URLs, empty fields, and duplicate short strings.
   
