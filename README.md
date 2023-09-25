@@ -21,7 +21,7 @@ https://link-snip.onrender.com
 
 - Redirection: GET endpoint ("/:shortStr") for URL redirection.
 
--  Underhood the shortUrl consists of Long URL which eventually redirects to long URL 
+- Underhood the short URL consists of long URL which eventually redirects to long URL 
 
 - Error Handling: Handles invalid URLs, empty fields, and duplicate short strings.
   
