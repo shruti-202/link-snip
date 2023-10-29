@@ -1,6 +1,6 @@
-# Link-Snip
- Link Shortener Service 
-- This backend application provides the core functionality of a URL shortening service, allowing users to create short links and track the number of times those links are clicked.
+# LinkSnip
+ LinkSnip is a backend application & it provides the core functionality of a URL shortening service. 
+- Allows users to create short links and track the number of times those links are clicked.
 - It also handles errors and provides a health check endpoint for monitoring the server's status.
 
 ## How to install and run locally ?
@@ -32,9 +32,9 @@ $ npm run dev
 
 - Server Startup: Logs server startup message.
 
-## Built with:
+## Tech Stack:
 - Express.js
 - MongoDB
 
-## Live Link:
+## App Link:
 https://link-snip.onrender.com
