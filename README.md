@@ -11,9 +11,6 @@ $ npm install
 $ npm run dev
 ```
 
-## Live Link:
-https://link-snip.onrender.com
-
 ## Features:
 - Create short Url by first providing longUrl & shortStr using POSTMAN
   
@@ -38,3 +35,6 @@ https://link-snip.onrender.com
 ## Built with:
 - Express.js
 - MongoDB
+
+## Live Link:
+https://link-snip.onrender.com
